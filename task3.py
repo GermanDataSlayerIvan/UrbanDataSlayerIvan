@@ -1,4 +1,4 @@
-#"3rd program"
+#3rd program
 firstMath = 2 * 2 + 2
 secondMath = 2 * (2 + 2)
 
