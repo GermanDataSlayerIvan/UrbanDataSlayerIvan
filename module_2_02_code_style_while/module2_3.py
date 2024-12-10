@@ -15,7 +15,7 @@ while curr_index < len(my_list):
     curr_element = my_list[curr_index]
 
     if curr_element == 0:
-        my_list.pop(curr_index)# тут использован pop() для того, что бы не производить повторный поиск нулевого элемента
+        my_list.pop(curr_index)# тут использован pop() для того, чтобы не производить повторный поиск нулевого элемента
                                # по списку через remove().
         curr_index -= 1# тут мы уменьшаем индекс выбора элемента в списке на единицу, так как мы удалили нулевой элемент
     if curr_element < 0:
