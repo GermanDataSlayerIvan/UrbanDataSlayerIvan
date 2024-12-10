@@ -11,7 +11,7 @@ while curr_index < len(my_list):
 
     if curr_element < 0:
         break
-
     if curr_element == 0:
         continue
+
     print(curr_element)
