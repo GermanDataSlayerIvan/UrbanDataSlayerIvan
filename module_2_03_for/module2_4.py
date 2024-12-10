@@ -19,7 +19,7 @@ for i in numbers:
     if i % 2 == 0:
         not_primes.append(i)
         continue
-    # Проверяем только нечётные делители:
+    # Проверяем только нечётные числа:
     else:
         is_prime = True
 
